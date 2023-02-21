@@ -3,7 +3,16 @@
 }
 
 /* header style starts here */
-
+.banner-area{
+    display: flex;
+    align-items: center;
+    column-gap: 43px;
+    background-color: #FAFAFA;
+}
+.banner-text{
+    margin-left: 156px;
+    margin-right: 57px;
+}
 .banner-title{
     color: #121212;
     font-weight: 700;
@@ -29,7 +38,7 @@
     color: #707070;
     padding: 16px 20px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
     margin-left: 30px;
