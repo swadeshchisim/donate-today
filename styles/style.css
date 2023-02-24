@@ -111,3 +111,40 @@ section{
 .donation-plans{
     text-align: center;
 }
+.plan-img {
+    width: 58.13px;
+    height: 49.77px;
+    margin-bottom: 31.73px;
+}
+.plans{
+    display: flex;
+    column-gap: 24px;
+    margin: 0 156px;
+}
+.plan{
+    padding: 63px 23px 54px;
+    border-radius: 5px;
+}
+.plan-img img{
+    width: 100%;
+}
+.plan-title{
+    color: #121212;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.plan-info{
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+}
+.food{
+    background: rgba(79, 157, 166, 0.1);;
+}
+.shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+.education{
+    background-color: #FFF4D6;
+}
