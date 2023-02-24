@@ -53,10 +53,10 @@ header{
 
 /* main section styles starts here */
 section{
-    margin: 130px 0;
+    margin: 130px 156px;
 }
 .donate-area{
-    padding: 0 300px;
+    padding: 0 150px;
     text-align: center;
 }
 .section-title{
@@ -119,7 +119,6 @@ section{
 .plans{
     display: flex;
     column-gap: 24px;
-    margin: 0 156px;
 }
 .plan{
     padding: 63px 23px 54px;
