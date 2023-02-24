@@ -147,3 +147,14 @@ section{
 .education{
     background-color: #FFF4D6;
 }
+/* -------------------------------------
+    Contribute area styles starts here
+---------------------------------------- */
+.contribution-area{
+    display: flex;
+    column-gap: 94px;
+    align-items: center;
+}
+.contribution-info{
+    margin-bottom: 20px;
+}
