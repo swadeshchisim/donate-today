@@ -3,11 +3,14 @@
 }
 
 /* header style starts here */
+header{
+    background-color: #FAFAFA;
+}
 .banner-area{
     display: flex;
     align-items: center;
     column-gap: 43px;
-    background-color: #FAFAFA;
+    padding-top: 64px;
 }
 .banner-text{
     margin-left: 156px;
