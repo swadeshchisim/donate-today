@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 *{
     margin: 0;
 }
@@ -192,4 +195,21 @@ Newsletter area starts here
     position: relative;
     top: 1px;
     background-color: #FF5959;
+}
+
+/* footer styles start here */
+footer{
+    padding: 43px 0;
+    text-align: center;
+    background-color: #0B0D17;
+}
+.footer-logo{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.footer-text{
+    color: #fff;
 }
