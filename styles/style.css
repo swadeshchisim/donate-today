@@ -172,6 +172,7 @@ Newsletter area starts here
     width: 809px;
     height: 200px;
     margin: 0 auto;
+    border-radius: 10px;
     background-color: #FFF4D6;
 }
 .newsletter-input{
@@ -214,4 +215,53 @@ footer{
 .footer-text{
     color: #D9DBE1;
     font-family: 'Manrope', sans-serif;
+}
+
+/* responsive styles start here */
+@media screen and (max-width: 576px){
+    .banner-area{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 48px;
+    }
+    .banner-text{
+        margin: 0;
+    }
+    section{
+        margin: 30px 20px;
+    }
+    .section-title{
+        font-size: 38px;
+    }
+    .section-info{
+        font-size: 16px;
+    }
+    .donate-area{
+        padding: 0;
+    }
+    .donate-amount{
+        flex-direction: column;
+    }
+    .plans{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .contribution-area{
+        flex-direction: column;
+        row-gap: 30px;
+        margin-bottom: 50px;
+    }
+    .contribution-area-first{
+        flex-direction: column-reverse;
+    }
+    .newsletter-container{
+        width: 100%;
+    }
+    .email{
+        width: 40%;
+    }
+    .subscribe{
+        padding: 13.5px 18px;
+    }
 }
